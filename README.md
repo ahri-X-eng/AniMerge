@@ -10,11 +10,16 @@
 
 Скачанный релиз часто выглядит так: видео в корне, а озвучки и надписи лежат в подпапках с хвостами вроде `.Дубляжная`, `.RHS` или `.signs`. Батникам нужны одинаковые имена, поэтому файлы приходится переименовывать вручную. AniMerge сопоставляет их сам.
 
+**[⬇ Скачать последнюю версию](https://github.com/ahri-X-eng/AniMerge/releases/latest)**
+
+![AniMerge: карточки источников и таблица сопоставления серий](images/screenshot-ru.png)
+
 ### Возможности
 
 - **Не нужно ничего переименовывать.** Сначала программа ищет совпадение по имени видео (`Серия 07.Дубляжная.mka`), затем по номеру серии. Спорные случаи можно поправить вручную прямо в таблице.
 - **Можно добавить несколько озвучек и субтитров** — каждая папка становится отдельным источником. Название, язык и флаги default/forced определяются автоматически, их можно изменить.
 - **Сдвиг нумерации** — на случай, когда озвучка пронумерована 13–24, а видео 01–12.
+- **Порядок дорожек задаётся перетаскиванием карточек**, а правый клик по карточке открывает быстрые настройки: по умолчанию, forced, включить или убрать источник.
 - **Шрифты из релиза** прикрепляются к MKV, если их ещё нет среди вложений видео.
 - **Все дорожки исходного видео сохраняются.** Меняются только флаги default, чтобы по умолчанию включалась выбранная озвучка. Если у этой озвучки нет файла для какой-то серии, в этой серии по умолчанию включится следующая по порядку.
 - **Сборка пачкой** с прогрессом, отменой и логом mkvmerge для каждой серии. Если одна серия не собралась, остальные всё равно соберутся.
@@ -22,7 +27,7 @@
 
 ### Установка
 
-1. Скачайте `AniMerge-<версия>-win-x64.zip` на странице [Releases](https://github.com/ahri-X-eng/AniMerge/releases).
+1. Скачайте `AniMerge-<версия>-win-x64.zip` на странице [последнего релиза](https://github.com/ahri-X-eng/AniMerge/releases/latest).
 2. Распакуйте в любую папку и запустите `AniMerge.exe`. Установка не нужна, mkvmerge уже входит в архив.
 
 Требования: Windows 10 или 11 (x64).
@@ -32,7 +37,7 @@
 ### Как пользоваться
 
 1. Перетащите папку с релизом в окно AniMerge или прямо на `AniMerge.exe`.
-2. Проверьте карточки источников и таблицу сопоставления. Можно отключить лишнее, поменять язык, название, порядок дорожек или выбрать файл для отдельной серии.
+2. Проверьте карточки источников и таблицу сопоставления. Карточки можно перетаскивать, чтобы поменять порядок дорожек, а по клику на карточку — изменить название, язык или сдвиг. Клик по ячейке таблицы позволяет выбрать файл для отдельной серии.
 3. Нажмите «Собрать». Готовые файлы появятся в папке `Completed` внутри выбранной папки.
 
 Настройки хранятся в `%APPDATA%\AniMerge\settings.json`.
@@ -57,11 +62,16 @@ Telegram: [t.me/LemonYakishio](https://t.me/LemonYakishio)
 
 A typical release has the videos in the root folder, while dubs and signs sit in subfolders with suffixes like `.Dub`, `.RHS` or `.signs`. Batch scripts need identical names, so the files have to be renamed by hand. AniMerge matches them for you.
 
+**[⬇ Download the latest version](https://github.com/ahri-X-eng/AniMerge/releases/latest)**
+
+![AniMerge: source cards and the episode match table](images/screenshot-en.png)
+
 ### Features
 
 - **No renaming.** Files are matched by video name first (`Episode 07.Dub.mka`), then by episode number. You can fix any uncertain match by hand in the table.
 - **Multiple dubs and subtitle tracks** — each folder becomes its own source. Name, language and default/forced flags are detected automatically, and you can change them.
 - **Episode offset** for when the dub is numbered 13–24 but the videos are 01–12.
+- **Drag the cards to set the track order**, and right-click a card for quick settings: default, forced, enable or remove the source.
 - **Fonts from the release** are attached to the MKV unless the video already has them.
 - **Every original track is kept.** Only default flags change, so your chosen dub plays by default. If that dub has no file for an episode, the next dub in order becomes the default for that episode.
 - **Batch merging** with progress, cancel, and a per-episode mkvmerge log. If one episode fails, the rest still get merged.
@@ -69,7 +79,7 @@ A typical release has the videos in the root folder, while dubs and signs sit in
 
 ### Installation
 
-1. Download `AniMerge-<version>-win-x64.zip` from [Releases](https://github.com/ahri-X-eng/AniMerge/releases).
+1. Download `AniMerge-<version>-win-x64.zip` from the [latest release](https://github.com/ahri-X-eng/AniMerge/releases/latest).
 2. Extract it anywhere and run `AniMerge.exe`. No installation is needed, and mkvmerge is already included.
 
 Requirements: Windows 10 or 11 (x64).
@@ -79,7 +89,7 @@ The app is not code-signed, so Windows SmartScreen may show a warning on first l
 ### Usage
 
 1. Drag the release folder onto the AniMerge window or onto `AniMerge.exe`.
-2. Review the source cards and the match table. You can disable what you don't need, change the language, name or track order, or pick a file for a specific episode.
+2. Review the source cards and the match table. Drag the cards to change the track order, or click a card to change its name, language or offset. Click a table cell to pick a file for a specific episode.
 3. Click "Merge". Finished files go to the `Completed` folder inside the chosen folder.
 
 Settings are stored in `%APPDATA%\AniMerge\settings.json`.
