@@ -1,0 +1,44 @@
+AniMerge — лицензионное соглашение (бесплатная программа)
+Copyright © 2026 ahri-X-eng. Все права защищены.
+Страница проекта: https://github.com/ahri-X-eng/AniMerge · Telegram: https://t.me/LemonYakishio
+
+1. Использование. AniMerge можно бесплатно использовать в личных и коммерческих целях.
+
+2. Распространение. Разрешается распространять AniMerge только в неизменном виде —
+   полным архивом вместе с файлами LICENSE.txt, THIRD-PARTY-NOTICES.txt и папкой licenses —
+   и только безвозмездно. Продавать программу или включать её в платные продукты запрещено.
+
+3. Ограничения. Запрещается декомпилировать, дизассемблировать, изменять AniMerge или иным
+   образом восстанавливать её исходный код, кроме случаев, прямо разрешённых применимым правом.
+
+4. Сторонние компоненты. В состав дистрибутива входят сторонние программы и библиотеки,
+   в том числе mkvmerge из MKVToolNix (GNU GPL v2). На них распространяются их собственные
+   лицензии (THIRD-PARTY-NOTICES.txt, папка licenses). Настоящее соглашение не ограничивает
+   права, которые дают эти лицензии.
+
+5. Отказ от гарантий. Программа предоставляется «как есть», без каких-либо гарантий. Автор не
+   несёт ответственности за любой ущерб, возникший в результате использования программы,
+   в том числе за потерю или повреждение файлов.
+
+------------------------------------------------------------------------------
+
+AniMerge — License Agreement (freeware)
+Copyright © 2026 ahri-X-eng. All rights reserved.
+Project page: https://github.com/ahri-X-eng/AniMerge · Telegram: https://t.me/LemonYakishio
+
+1. Use. You may use AniMerge free of charge for personal and commercial purposes.
+
+2. Redistribution. You may redistribute AniMerge only unmodified — as the complete archive
+   including LICENSE.txt, THIRD-PARTY-NOTICES.txt and the licenses folder — and only free of
+   charge. Selling the program or bundling it into paid products is not permitted.
+
+3. Restrictions. You may not decompile, disassemble, modify or otherwise attempt to reconstruct
+   the source code of AniMerge, except where applicable law expressly permits it.
+
+4. Third-party components. The distribution includes third-party programs and libraries,
+   including mkvmerge from MKVToolNix (GNU GPL v2). They are governed by their own licenses
+   (THIRD-PARTY-NOTICES.txt, licenses folder). This agreement does not limit the rights those
+   licenses grant.
+
+5. No warranty. The program is provided "as is", without warranty of any kind. The author is
+   not liable for any damage arising from its use, including loss of or damage to files.
